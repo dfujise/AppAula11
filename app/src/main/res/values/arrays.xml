@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frutas_array">
+        <item>maça</item>
+        <item>morango</item>
+        <item>pera</item>
+        <item>abacaxi</item>
+    </string-array>
+
+</resources>

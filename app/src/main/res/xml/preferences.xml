@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Imagens">
+        <CheckBoxPreference
+            android:defaultValue="False"
+            android:key="hires"
+            android:summary="Mostra imagens de alta qualidade."
+            android:title="Imagens" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Frutas">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="frutas"
+        android:summary="Gosto de frutas"
+        android:title="Frutas" />
+    <ListPreference
+        android:defaultValue="maça"
+        android:dependency="frutas"
+        android:dialogTitle="Tipo da Fruta"
+        android:entries="@array/frutas_array"
+        android:entryValues="@array/frutas_array"
+        android:key="fruta_type"
+        android:summary="Fruta preferida para comer"
+        android:title="Tipo da Fruta" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="extraA"
+        android:summary="Outro Exemplo EditTextPreference"
+        android:title="Mais Dados" />
+    </PreferenceCategory>
+    <PreferenceScreen
+    android:key="second_preferencescreen"
+    android:title="Segunda tela de preferencias">
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="extraA"
+        android:summary="Outro Exemplo EditTextPreference"
+        android:title="Mais Dados" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="ExtraB"
+        android:summary="Mais dados 2"
+        android:title="Mais Dados 2" />
+    </PreferenceScreen>
+</PreferenceScreen>
