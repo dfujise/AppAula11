@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+
 public class MainActivity extends AppCompatActivity {
 
     public static final String SETTINGS = "br.com.androidpro.appaula11.settings";

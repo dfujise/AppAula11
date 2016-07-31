@@ -42,4 +42,5 @@
         android:summary="Mais dados 2"
         android:title="Mais Dados 2" />
     </PreferenceScreen>
+
 </PreferenceScreen>
